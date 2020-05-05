@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+html {
+  font-size: 100%;
+}
+
+nav {
+  background: #551728;
+  padding: 20px;
+  /* background: #632839; */
+  color: #acd0e1;
+
+  font-family: "Open Sans", sans-serif;
+}
+
+nav a {
+  color: #acd0e1;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav:hover a {
+  transform: rotate(30deg);
+}
